@@ -1,6 +1,6 @@
 {
 	"name": "electron-wrapper",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Local module for overiding electron's default behavior",
 	"main": "index.js",
 	"scripts": {

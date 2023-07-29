@@ -1,3 +1,3 @@
-export { contextBridge } from "./contextBridge";
-export { ipcRenderer } from "./ipcRenderer";
-export { ipcMain } from "./ipcMain";
+export { contextBridge } from "./contextBridge.js";
+export { ipcRenderer } from "./ipcRenderer.js";
+export { ipcMain } from "./ipcMain.js";
