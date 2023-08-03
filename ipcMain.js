@@ -17,8 +17,8 @@ export const ipcMain = {
 		if (!once[channel]) once[channel] = [];
 		once[channel].push(callback);		
 	},
-	callRenderer: (_window, channel, data) => {
-		callAnswer(channel, data)
+	callRenderer: async (_window, channel, data) => {
+		await callAnswer(channel, data)
 	}
 };
 
